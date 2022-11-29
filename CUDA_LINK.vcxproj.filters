@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="collision.cu">
+      <Filter>srouce</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{0f6a19ac-e2fb-4841-8076-fd774cf91339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="srouce">
+      <UniqueIdentifier>{e2280abc-556f-4697-9ed8-c547665ab9ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>srouce</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="collision.cuh">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Simpson.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="mytimer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
